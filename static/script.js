@@ -1,0 +1,1 @@
+function filterRows(){const q=document.getElementById("search").value.toLowerCase();document.querySelectorAll("#fileRows tr").forEach(row=>{row.style.display=row.innerText.toLowerCase().includes(q)?"":"none";});}
